@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+#image-gallery {
+    width: 100%;
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.sbs {
+    h3 {
+        text-align: center;
+    }
+    figure {
+        text-align: center;
+    }
+    figcaption {
+        text-align: center;
+        font-style: italic;
+        font-size: .75em;
+    }
+    border: solid 1px black;
+}
+
+.lastdiv {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
