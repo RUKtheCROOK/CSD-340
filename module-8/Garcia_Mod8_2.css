@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #47429b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #b2b2b2;
+border-bottom: 15px solid #47429b;
+    a{
+       float: left;
+       display: block;
+       color: #47429b;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+    }
+    a:hover {
+        background-color: #47429b;
+        color: white;
+    }
+}
+
+.container {
+    /* The margin is a Mod 8 addition */
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #47429b;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #47429b;
+    /* next 2 lines below are also a Mod 8 addition */
+    position: fixed;
+    left: 0;
+    bottom: 0;       
+    width: 100%;
+    p{
+        color: white;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        color: white;
+        font-weight: 400;
+        float: right;
+        padding-right: 10px;
+        font-style: italic;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Start Module 8 additions */
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #47429b;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
