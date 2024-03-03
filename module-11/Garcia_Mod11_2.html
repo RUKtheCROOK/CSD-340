@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv = "author" content = "John Garcia">
+    <meta http-equiv = "description" content = "Assignment 2.2">
+    <script src="Garcia_Mod11_2.js"></script>
+    <title>CSD 340 Development with HTML and CSS</title>
+</head>
+<body>
+    <div>
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+        <p>This is an interactive To Do List. Type in to do items in the text box, then click the Add button. The display button refreshes the ToDo list, though it auto refreshes on an addition or deletion. Click on Delete Task to delete that task.</p>
+        <input type="text" id="input" placeholder="ToDo item" onchange="inputTracker()">
+        <button onclick="addTask()">Add</button>
+        <button onclick="refresh()">Display</button>
+        <hr>
+        <h2>ToDo List</h2>
+        <ol id="list">
+        </ol>
+    </div>
+</body>
+</html>
